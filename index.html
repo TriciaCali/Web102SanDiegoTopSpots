@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
+    <title>San Diego Top Spots</title>
     <meta charset="utf-8">
-</head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="icon" href="data:;base64,=">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;600;700&family=Orbitron:wght@400;500&family=Passion+One&family=Roboto+Condensed:wght@300;400&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet">
 
-<body>
-    <!-- Write your markup here -->
+  </head>
+  <body>
+<div id="titleDiv">
+  <img id="titlePic" src="/pictures/title.png">
+  
+</div>
+<div id="mainDiv">
+<img id="tigerPic" src="/pictures/tiger.jpg" class="imgSize">
+<img id="blueAngelsPic" src="/pictures/blue-angels.jpg" class="imgSize">
+<img id="sunsetPic" src="/pictures/sunset.jpg" class="imgSize">
+<img id="hotelPic" src="/pictures/hotel-del-coronado.jpg" class="imgSize">
+    <h1 id="test">San Diego Top Spots</h1>
+   
+<div id="tableDiv" ><table id="myTable">
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+         <th>Location</th>
+    </tr>
+</table>
+</div>
+</div>
+<div id="outerMapDiv">
+<div id="map">
+</div>
+</div>
 
-    <!-- Don't forget to add your <script> tag here -->
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXGkTho6ybpw9KEvUvREl8K-2RMYNVXW8&callback=initMap&v=weekly"
+defer
+></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
