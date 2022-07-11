@@ -4,7 +4,6 @@
     "scripts": {
             "start": "node server/index.js",
             "test": "mocha test --exit"
-        }
     },
     "dependencies": {
         "chai": "^4.0.2",
