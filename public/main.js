@@ -1,5 +1,5 @@
   //get data from json file
-    $.getJSON("data.json", function (result){
+    $.getJSON("./data.json", function (result){
       var topSpot ="";
       //iterate through objects
       $.each(result, (key,value)=>{
